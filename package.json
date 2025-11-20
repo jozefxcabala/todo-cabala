@@ -1,0 +1,17 @@
+{
+  "name": "todo-cabala",
+  "version": "1.0.0",
+  "description": "To-Do application with React and TypeScript",
+  "private": true,
+  "scripts": {
+    "install:all": "cd BE && npm install && cd ../FE && npm install",
+    "start": "concurrently \"npm run start:be\" \"npm run start:fe\"",
+    "start:be": "cd BE && npm start",
+    "start:fe": "cd FE && npm start",
+    "dev": "npm run start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
+

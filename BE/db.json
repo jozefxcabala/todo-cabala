@@ -1,0 +1,17 @@
+{
+  "todos": [
+    {
+      "title": "First Item",
+      "description": "first item",
+      "completed": false,
+      "createdAt": "2025-11-20T14:11:16.442Z",
+      "id": 1
+    },
+    {
+      "title": "Second Item",
+      "completed": false,
+      "createdAt": "2025-11-20T14:11:20.912Z",
+      "id": 2
+    }
+  ]
+}
